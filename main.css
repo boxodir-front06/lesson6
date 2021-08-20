@@ -22,40 +22,56 @@ body html{
     padding-left: 35px;
     background-color: red;
     color: white;
+    position: absolute;
+    left: 20px;
+    border-radius: 15px;
+}
+.card:hover{
+    box-shadow: 5px 5px 15px red;
 }
 .card h1{
     font-size: 40px;
-    padding-top: 40px;
+    padding-top: 40px;  
+    position: fixed;
+    top: 60px; 
 }
 .card p{
-    font-size: 40px;
-    margin-top: 40px;
+    font-size: 38px;
+    position: fixed;
+    top: 150px;
 }
 .card img{
     width: 400px;
     height: 400px;
-    
-
-    
+    position: fixed;
+    top: 200px;
 }
 h2{
     width: 200px;
     height: 50px;
-    border: 2px solid white ;
-    color: white;
+    border: 3px solid white ;
+    box-shadow: 0 0 10px ;
     background-color: red;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 60px;
+    align-items: center;  
+    position: fixed;
+    top: 650px;
+}
+h2 a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
 }
 h2:hover{
-    color: black;
     background-color: white;
 }
 .start{
     width: 1200px;
     height: 1000px;
+    margin-left: 450px;
 }
 .box{
     display: flex;
@@ -64,6 +80,7 @@ h2:hover{
 .box1{
     width: 280px ;
     height: 490px;
+    border-radius: 10px;
 }
 .box1-text{
     padding-bottom: 20px;
@@ -89,6 +106,34 @@ h2:hover{
 .box1:hover{
     box-shadow: 5px 5px 15px;
 }
+.box2{
+    width: 280px ;
+    height: 490px;
+}
+.box2-text{
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.box2 img{
+    width: 240px ;
+    height: 250px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.box2 span{
+    display: block;
+    color: gray;
+    padding-top: 20px;
+}
+.box2-text del{
+    display: block;
+    padding-bottom: 10px;
+    color: red;
+}
+.box2:hover{
+    box-shadow: 5px 5px 15px;
+}
 .start2{
     display: flex;
     justify-content: space-evenly;
@@ -98,6 +143,7 @@ h2:hover{
     height: 490px;
     margin-top: 20px;
     padding-top: 20px;
+    border-radius: 10px;
 }
 .tavar1-text{
     padding-bottom: 20px;
@@ -120,5 +166,34 @@ h2:hover{
     color: red;
 }
 .tavar1:hover{
+    box-shadow:5px 5px 15px;
+}
+.tavar2{
+    width: 280px ;
+    height: 490px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.tavar2-text{
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.tavar2 img{
+    width: 260px ;
+    height: 250px;
+    padding-top: 10px;
+}
+.tavar2-text span{
+    display: block;
+    color: gray;
+    padding-top: 20px;
+}
+.tavar2-text del{
+    display: block;
+    padding-bottom: 10px;
+    color: red;
+}
+.tavar2:hover{
     box-shadow:5px 5px 15px;
 }
